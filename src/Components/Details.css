@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh; 
+  margin: 0;
+  background-color: #94a8bb; 
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 90%; 
+  max-width: 1200px; 
+  gap: 20px; 
+}
+
+form {
+  background: #ffffff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form h1 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8em;
+  margin: 0 0 20px 0; 
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  border-collapse: collapse; 
+  width: 100%; 
+  background-color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 700px; /* Limit the table width */
+}
+
+table th, table td {
+  border: 1px solid #272424;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  color: rgb(47, 41, 41);
+  font-weight: bold;
+}
+
+table tr {
+  color: rgb(58, 47, 47);
+}
